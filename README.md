@@ -6,18 +6,23 @@ two neat formats.
 * avg_tidy_data.txt is in the same table format and takes the average value for each column in tidy_data.txt separated by test subject AND activity i.e. the average of subject 1, activity 1 is different to subject 1, activity 2 etc.
 
 For the script to work properly these files must exist
+```
 .
+|
 +-- run_analysis.R
+|
 +-- UCI HAR Dataset
 	+-- features.txt
 	+-- activity_labels.txt
+	|
 	+-- test
 		+-- X_test.txt
 		+-- y-test.txt
 		+-- subject_test.txt
+	|
 	+-- train
 		+-- X_train.txt
 		+-- y-train.txt
 		+-- subject_train.txt
-
+```
 For more information about the outputs consult the CODEBOOK.md
