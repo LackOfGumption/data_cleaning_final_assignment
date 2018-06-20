@@ -12,17 +12,17 @@ For the script to work properly these files must exist
 +-- run_analysis.R
 |
 +-- UCI HAR Dataset
-	+-- features.txt
-	+-- activity_labels.txt
-	|
-	+-- test
-		+-- X_test.txt
-		+-- y-test.txt
-		+-- subject_test.txt
-	|
-	+-- train
-		+-- X_train.txt
-		+-- y-train.txt
-		+-- subject_train.txt
+    +-- features.txt
+    +-- activity_labels.txt
+    |
+    +-- test
+        +-- X_test.txt
+        +-- y-test.txt
+        +-- subject_test.txt
+    |
+    +-- train
+        +-- X_train.txt
+        +-- y-train.txt
+        +-- subject_train.txt
 ```
 For more information about the outputs consult the CODEBOOK.md
